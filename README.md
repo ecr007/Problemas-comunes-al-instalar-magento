@@ -69,3 +69,7 @@
 ## Si no cargan los assents en el frontent
 
 clear files in var/cache/TODO, var/page_cache/TODO
+
+
+
+php -d memory_limit=-1 composer.phar require shipperhq/module-shipper
